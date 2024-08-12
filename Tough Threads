@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | T-Shirts, Hoodies, Long Sleeve Shirts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tshirts">T-Shirts</a></li>
+                    <li><a href="#hoodies">Hoodies</a></li>
+                    <li><a href="#longsleeves">Long Sleeve Shirts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="tshirts" class="product-section">
+        <div class="container">
+            <h2>T-Shirts</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="tshirt1.jpg" alt="T-Shirt 1">
+                    <h3>Cool T-Shirt 1</h3>
+                    <p>$20.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products similarly -->
+            </div>
+        </div>
+    </section>
+
+    <section id="hoodies" class="product-section">
+        <div class="container">
+            <h2>Hoodies</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="hoodie1.jpg" alt="Hoodie 1">
+                    <h3>Stylish Hoodie 1</h3>
+                    <p>$35.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products similarly -->
+            </div>
+        </div>
+    </section>
+
+    <section id="longsleeves" class="product-section">
+        <div class="container">
+            <h2>Long Sleeve Shirts</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="longsleeve1.jpg" alt="Long Sleeve Shirt 1">
+                    <h3>Comfy Long Sleeve 1</h3>
+                    <p>$25.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products similarly -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
